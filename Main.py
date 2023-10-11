@@ -9,7 +9,7 @@ def custom_operation(num1, num2, operation_type):
         if num2 != 0:
             result = num1 / num2
         else:
-            result = "Cannot divide by zero!"
+            result = "Cannot divide by zero!!!!"
     else:
         result = "Invalid operation type!"
 
