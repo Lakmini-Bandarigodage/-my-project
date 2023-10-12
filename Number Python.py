@@ -1,5 +1,6 @@
+import math
 def calculate_square_and_cube(number):
-    square = number ** 2
+    square = math.pow(number,2)
     cube = number ** 3
     return square, cube
 
