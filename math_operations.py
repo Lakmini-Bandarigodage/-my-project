@@ -12,5 +12,5 @@ class MathOperations:
         if b != 0:
             return a / b
         else:
-            return "Cannot divide by zero!"
+            return "Cannot divide by zero!!"
 
