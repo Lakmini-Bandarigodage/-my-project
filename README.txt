@@ -1,6 +1,5 @@
-Hello, This is my first repository.
-I am modifying the file.
+print("Hello")
 
-Again, I am modifying the file.
-
-Again, I am modifying the file.
+x = 10
+y = 10
+print(x + y)
