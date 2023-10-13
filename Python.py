@@ -1,8 +1,11 @@
 def greet(name, age):
-    if age >= 18:
-        return f"Hello, {name}! Welcome to the adult club!!"
+    if age>0:
+        if age >= 18:
+            return f"Hello, {name}! Welcome to the adult club!!"
+        else:
+            return f"Hello, {name}! You're still a young one!!"
     else:
-        return f"Hello, {name}! You're still a young one!!"
+        print("Invalid age")
 
 if __name__ == "__main__":
     user_name = input("Enter your name: ")
